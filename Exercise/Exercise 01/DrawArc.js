@@ -8,8 +8,8 @@ function main() {
 
     // Get the rendering context for 2DCG 
     var ctx = canvas.getContext('2d');
-    // Draw a blue rectangle
-    ctx.fillStyle = 'rgba(0, 0, 255, 1.0)';
+    // Draw a circle
+    ctx.arc(100, 75, 50, 0, 2 * Math.PI);
     // Set a blue color 
-    ctx.fillRect(120, 10, 150, 150); // Fill a rectangle with the color
+    ctx.fill(120, 10, 150, 150);
 }
