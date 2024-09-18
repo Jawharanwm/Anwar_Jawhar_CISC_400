@@ -1,0 +1,16 @@
+Line 1 defines the code block under is going to be written in javascript all inside 
+    a HTML file.
+
+Line 3 creates a varriable called canvas which will be manipulated with javascript
+    webgl is our identifer and by using getelementid, we fetch it through the HTML element.
+
+Line 5 creates a varriable called gl which basically gets the rendering context for WebGL by calling our canvas up
+
+Line 6-8 is essentially checking if we succesfully get the nesscesary rendering context.
+    if we do it passes this check, if not it throws a error to our console and returning.
+
+Line 11-13 is another check seeing if we had correctly intialized the gl varriable with
+    both shaders. if it passes this check it throws no errors. if initshaders results as false
+    it will throw a error to our console.
+
+Line 15 is basically closing our script block in the HTML file.

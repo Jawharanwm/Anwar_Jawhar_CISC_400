@@ -1,0 +1,18 @@
+Our input would be a set of points (x,y), and the size of the set needs to be greater than 3
+
+if n "the number of points" is less than 3, then we throw a error as that is not enough to 
+    make a unique circle
+
+we would choose from the first three points in the set
+
+next step we can calculate the center and the radius using the three points
+
+we can find the two midpoints, one from the first point to the second point, and the other midpoint from the second point to the third point
+
+Then, Solve the system of equations of the bisectors to find the center (h, k)
+
+we can find the radius using this algorithm r = sqrt((x1 - h)^2 + (y1 - k)^2)
+
+Now we can loop through the rest of all of the points and see if they all lie within the circle, if they all lie, we can return true for this algorithim
+    else, it will return false
+

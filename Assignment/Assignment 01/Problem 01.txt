@@ -1,0 +1,28 @@
+Pixel - 
+    A pixel is the smallest individual unit of an image or display. 
+    It’s a tiny dot of color that, when combined with many other pixels, forms a complete picture or screen display.
+
+Frame (or refresh) buffer- 
+    A frame buffer is a part of computer memory that holds the image data that is being displayed on the screen at a given moment. 
+
+Aliasing and Antialiasing- 
+    Aliasing occurs when an image appears jagged or pixelated, especially along the edges of objects, 
+    due to the limitations of resolution and pixel size.
+
+    Antialiasing is a technique used to smooth out those jagged edges by blending the colors of the edge pixels,
+    making the transitions between them appear more gradual
+
+Bit map and pixel map-
+    Bitmap is a type of image file format where each pixel in the image is mapped to a specific bit of data, 
+    defining the color or intensity of that pixel.
+
+    Pixel map refers to the arrangement or layout of pixels in a display, 
+    showing how individual pixels correspond to points in the image or the output
+
+Resolution- Resolution refers to the number of pixels in an image or display, usually measured as width × height (e.g., 1920×1080).
+ It defines the level of detail an image can show — higher resolution means more pixels, leading to sharper images.
+
+Bit Depth (or color depth)-
+
+    Bit depth refers to the number of bits used to represent the color of each pixel. A higher bit depth means more colors can be displayed. For example, 
+    an 8-bit color depth allows for 256 colors, while 24-bit allows for over 16 million colors, resulting in more accurate and vivid images.

@@ -1,0 +1,23 @@
+Difference between a Vertex Shader and a Fragmant Shader
+
+Vertex Shader-
+    The main purpose is for geometric transformations and 
+    vertex-level calculations
+
+    The stage in pipeline is early for a vertex processing
+
+    It handles more simpler operations such as matrix transformations
+
+    It influences where the geometry appears on the screen
+
+Fragmant Shader-
+    The main purpose is per-pixel coloring, texturing,
+    and shading
+
+    Stage in the pipeline is more towards later for fragment processing
+
+    It handles more complex effects such as lighting, shading,
+    and texturing
+
+    It influences what color each pixel appears as
+
