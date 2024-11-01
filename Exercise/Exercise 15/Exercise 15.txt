@@ -1,0 +1,13 @@
+Our vertex shader is a attribute that recieves 
+the position that it will be located at. Then passed to the shader.
+
+Our Fragment shader on the other hand has more math involved. Getting a floating point uniform varriable for the 
+canvas's width and height. "gl_FragCoord gives the fragment’s coordinates, which are normalized to create a gradient effect across the triangle."
+gl_fragcolor is setting each pixel a color based on its position, red varries with the x-coordinates and blue with the y-coordinates.
+
+
+Main function is the same as always, initializing shaders, writing the positions of verticies,
+clearing the canvas then drawing.
+
+initvertexbuffers is similiar to what we have seen before instead with the new addition of the widith and height varriables for the canvas.
+then binding the drawing buffers for it.
